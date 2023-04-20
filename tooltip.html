@@ -1,0 +1,17 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<script src="js/bootstrap.bundle.min.js"></script>
+<body>
+<br> <br>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-html="true" title="<a href='a.html' class='text-white'>ssi digital</a>"
+  Tooltip with HTML
+</button>
+</body>
+<script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+</html>
